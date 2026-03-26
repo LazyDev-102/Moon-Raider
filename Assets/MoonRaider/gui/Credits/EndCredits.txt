@@ -1,0 +1,416 @@
+\{event "image1"}
+
+\{text "Group"}Producer, Developer
+\{text "Name"}Chris Jorgensen, Cascadia Games LLC
+
+
+\{text "Group"}Publisher
+\{text "Name"}Crescent Moon Games
+
+
+\{text "Group"}Artists
+\{text "Name"}Tom Filhol
+ultimatemaverickx
+Ian Cid
+Matt Filhol
+Chris Jorgensen
+
+
+\{event "image2"}
+\{text "Group"}Game Designers
+\{text "Name"}Chris Jorgensen
+Katie Jorgensen
+
+
+\{text "Group"}Music
+\{text "Name"}Erhan Ergenekan
+
+
+\{event "image3"}
+\{text "Group"}Special Thanks
+\{text "Name"}Chris Anderson
+Abdulaziz Al-Kaboor
+Adulrahman
+AwesomeJacketDude
+Eric
+Franz Jürgen Ottliczky
+Gembone
+Michael James Pedroso
+illogycal
+Craig Berry
+Rory Simpson
+Thomas Wilger
+
+
+\{event "image4"}
+\{text "Group"}Additional thanks
+\{text "Name"}Abdullah-[Hotctime]-Attar
+Aj bman barry
+Amy Cunnane
+Andy Kurnia
+Arline Kirkpatrick
+ChaoticFear19
+Aster Grimoire
+Derek R Boudreaux
+Eric Foerg
+Ern Darnpath
+Dmitry "handyfirst" Sukhoruchkin
+FrictionX42
+James Latzer
+James 'I got this!' Reilly
+John Lyon
+Farfar
+L Tan (LTzy11)
+Michael Epstein
+Michael Thies
+Alexander Roper
+Nadiim 'Dimo' Nafei
+Patrick Dale
+Preston Coppinger
+Saucycarpdog
+Tom 'Shagz' Chelius
+Stephen Scott
+Timothy Schoonhoven
+Zer0
+
+
+\{event "image5"}
+\{text "Group"}Additional thanks
+\{text "Name"}Aaron Bennett
+Adam Jacomb
+ads64
+spiritbane
+Andreas Föhl
+Andrew Cotton
+Andrew Hunter
+Andrew Miller
+Shadow Wedge
+Stefan J. Torres
+Hugo Forss
+Neven
+Benedikt Betz
+Benjamin 'bizzl' Kleiner
+SuperKiller2025
+Jon Duckworth
+Bruce H.
+Chay
+Christopher Hughes
+Mike Rudolph
+GRANT CONNER
+Elliott Purdie
+Corey Brown
+Nicholas Ostrom
+Daniel R. Molina
+Dhira Atman
+Dominic Ferramosi
+Gladuateur
+Ebelio Mondragon
+Elisha Haase
+Enes Memic
+Evan Fedeli
+Fredusdiem
+Gevin Huey
+Göran Isacson
+John Bower
+Helana Grondahl-Traynor
+Barbaredestroy
+Garrett Perry (Weakfoggy)
+Iria Pimm
+Iván Vadim Pina Molina
+Mus & Jab
+Jason Franklin Knox
+Jean-Baptiste 'Négaji' Despres
+J Ruane B
+JEREMIAH VARNADOR
+Jordi Kroon 'erbkaiser'
+JVer1710
+Joe Parello
+Juan Vargas
+JunSia
+Kiam Shaton Whitfield
+Kris Vincent
+Kyle Morgan
+Lisa Homstad
+Lowry Sweney
+Lukas Daniel Klausner
+mac15444
+Mark Richard Cunningham
+Martin Faaborg
+Mathieu Martel
+Matomite
+Matt Bailey
+Matt 'Yoonikorn' McCoy
+Matthias Lamm
+Kourtney & Richard Jossy
+MdawgD
+Michael RadTech
+Michael Willis Jr.
+Mike Danylchuk
+Code32
+Il Principe di Firenze
+MQ7145
+Multae Kappae
+Natalie Doonanco
+Nicholas A. Gantner
+Nidoking
+Karl Pearce
+Pascal 'Pasimodo' Muth
+Patrik Hanson
+Stephen Perona
+Philip Orum
+Pills
+Reuben Thiessen
+Roger A. Daniels
+Rolf S. from Bocholt / Germany
+Ryan Ross
+Sander Mebus
+S&A Thomas
+EvaFull
+Seth Anderson
+THE 'AOD' ster
+Shane Hoover
+Shawn Whyte
+Squidly
+StreetbreakerX2
+Taylor Scrivner
+Thierry L
+Tom Streck
+Devon 'gaijinranger' Camel
+David R LaFollette
+Yair Yosef Shalom
+Youji
+Zachary Kipp Hansen
+
+
+\{event "image6"}
+\{text "Group"}Additional thanks
+\{text "Name"}53xy83457
+8-Bit Assassin
+BigSibs
+Semy Sin
+Adam Klagues
+Adam Caylor
+Radiovid
+A.J. Darrow
+Shamax
+Trexenol
+Alexandre Laberge
+ali alsinan
+Andrew John Hensley
+Andrew Heran
+Andrew Hudson
+Andrew Vandeyar
+HermitPal
+Andy Header
+Antoni Ferragut
+Ashley Capes
+Aurelio Carballeda Estévez
+Ben Dombek
+Benjamin Cohen
+Ben "Cauldrath" Hanes
+Beth n Christian Bone
+BioMassa
+Biometal Omega
+Blaine Hodge
+Robert J Gomez III
+Rizzle01
+Brandon Mccurdy (Retrobolt)
+bsr
+Brian Johnson
+Bryan Nagle
+Cadence Alvarez
+Cee Bee
+Dave O
+Christian Huang
+Christopher Samuel Goad
+Mega Visions Magazine
+Pianfensi
+Mogur
+Clay Simpson
+Colby Hayes
+Colin Wenger
+Collin Tan
+Copycat Zero
+Twilight Sunstar
+Damien Burns
+Simbo09
+Daniel Lin
+Daniel T. Rudolfsen
+Daniel Sanchez
+David A Brown
+David C. Fraga
+David Ferch
+David Gordon Fisher
+David O'Neal
+Devyn R
+Lawrence J Ernest Jr
+Dotacon
+DreamDrop♥
+Graspied
+DuckInADungeon
+Lilly of the Void
+Dylan Tan
+Andi B.
+Eitan 'Nurik' Marcus
+Elecmarol
+Eli BF
+Elliott Gibb
+Errol 'Sack of Hammers' Lobo
+Fermin Serena Hortas
+Froodjakle
+Gerry-AAB
+Doomfan
+DogMartyr
+Gravely Desu
+HamsterBob Stewart
+H. Baxter
+Jonathan K Kassel
+ichik
+Skye Nathaniel Schiefer
+Roobar
+Neorider
+Jacob Weinzveg
+James Isaac MacFarlane
+J J Malpas
+Jamie Stratton
+Jared N
+Keiji Miashin
+Jatym
+Jaume Alcazo Castellarnau
+epicjen
+Jeremy Forbes
+Jeremy Gillis
+Jesse B. Willis
+Jesse Gardner
+JIMATION
+Joachim Esser
+Joe G
+MissedCypress61
+Demajen
+Jose Rafael B
+Joseph Rodriguez
+Joshuah Kusnerz
+Julius Botelho
+Justin Byrne
+ShadowSage006
+Karl maly
+Keith Bloom
+Ken Rogers
+Kenny Ryan
+Kevin Carter
+Kevin Plymale
+Kimberly Blacketer
+Kitten D'Vodka
+Kota Yamami
+Kristoffer Wiklund
+Laura Roberts
+gerbil
+Skydreams
+Leveil Lander
+Link3895
+Lou Gojira
+Brendon Amos Yost
+Mark 'The Meatball' Mazzone
+Mark Kaddas
+MGrenham
+Martin Flanagan
+Martin Kauferstein
+Pawel 'Matoos' Matusiak
+Corky
+Matthew and Jessica De Bartolo
+Matthew 'SaneintheReign' Forrest
+Hias Matt Salchner
+blkxltng
+Melly
+Fábio Tupy 'Metafogos'
+roguelikemike
+Michael R. Kingston
+Michel Sondagh
+Mychal Matthews
+Nick Urko
+Neptunian Orbitron
+nightst4r
+Nik
+Niki Coppola
+Niklas Bastian
+piao
+Olivier 'Grim Phantom' Ducharme
+Omar G.
+Operator0G
+Paige
+The Jonin Monkey
+Patricio Caceres
+Patrick 'PAVERICK' Meyer
+Patrick Fisher - Aequitas1983
+Bingchang
+Peter La Farciola
+Phillip Ballman
+Ralf Janßen
+Frieks
+ReddestDream
+Relentless Rex
+Richard Alonzo
+Yujihajime
+Robbie Schoeppner
+Ron Z
+Seiromem
+Rusty Waldrup
+Bones
+Ryan H.
+Ryan Kent
+Mighty Ryan
+Sam Beddoes
+Sam Bockmann
+Samer Najjar
+Saud
+saul asoyuf
+Saul Mostacero
+Scarlet
+Parisay Scott Songvilay
+Igler
+Nahalyd
+Daniel Santos
+Sigmund Judge
+Sarah Hertzke
+Simon Ouellette
+nadaimma
+Skydevilpalm (Ian & Aidan Cid)
+S.E
+Duane 'Speedy' van Voorst
+Thomas Bühler aka Sprudel
+StealthWebM
+Stephen Rose
+Steve Hinckley
+Ste Haury
+Steven Mills
+Steven Vistoft Nielsen
+Red_Sutter
+SwordFirey
+Theo Gerome
+T Paraskeva
+Thomas Jensen
+Timmy 'FishOfPain' Petersson
+Timothy 'Vyse Dyne' Geary
+Timothy Nunes
+Doggy Treat
+Treefrog78
+T.C. Hinkley
+Tyler Sticka
+Tankore93
+Uri Shomroni
+Vanessa-Jayne Nilsson
+Vathious
+VeeKiraRay
+Ashleigh Dale
+Vilvarion
+DokEvilGamer
+william storms
+wildwillo
+BiggieDubz
+xarfg
+Zachary 'Ingaragar' Wright
+
+\{img "Logo"}
+
+
+\{event "finish"}

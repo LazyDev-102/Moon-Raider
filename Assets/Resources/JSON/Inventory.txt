@@ -1,0 +1,106 @@
+{
+	"Upgrades": {
+		"Health": [
+			{
+				"name": "+1 Max Health",
+				"description": "Increases total health",
+				"cost": 50,
+				"cap": 5
+			},
+			{
+				"name": "+1 Armor",
+				"description": "Decreases damage from enemies",
+				"cost": 1000,
+				"cap": 2
+			},
+			{
+				"name": "+1 Recover",
+				"description": "Health slowly increases by itself",
+				"cost": 2000,
+				"cap": 2
+			}
+		],
+		"Tools": [
+			{
+				"name": "+1 Beacon",
+				"description": "Leave beacons behind to help find your way",
+				"cost": 500,
+				"cap": -1
+			},
+			{
+				"name": "+1 Map",
+				"description": "A map to navigate from",
+				"cost": 2000,
+				"cap": 2
+			},
+			{
+				"name": "+1 Scanner Range",
+				"description": "Reveal hidden areas and breakable walls",
+				"cost": 4000,
+				"cap": 2
+			}
+		]
+	},
+	"Weapons": {
+		"Blaster": [
+			{
+				"name": "+1 Range",
+				"description": "Increases blaster range",
+				"cost": 1000,
+				"cap": 2
+			},
+			{
+				"name": "+1 Damage",
+				"description": "Increases blaster damage",
+				"cost": 1500,
+				"cap": 2
+			},
+			{
+				"name": "+1 Speed",
+				"description": "Increases blaster speed",
+				"cost": 500,
+				"cap": 2
+			}
+		],
+		"Spray": [
+			{
+				"name": "+1 Range",
+				"description": "Increases spray range",
+				"cost": 1000,
+				"cap": 2
+			},
+			{
+				"name": "+1 Damage",
+				"description": "Increases spray damage",
+				"cost": 1500,
+				"cap": 2
+			},
+			{
+				"name": "+1 Count",
+				"description": "Increases spray count",
+				"cost": 2000,
+				"cap": 4
+			}
+		],
+		"Thrust": [
+			{
+				"name": "+1 Range",
+				"description": "Increases thruster range",
+				"cost": 1000,
+				"cap": 2
+			},
+			{
+				"name": "+1 Speed",
+				"description": "Increases thruster speed",
+				"cost": 1000,
+				"cap": 2
+			},
+			{
+				"name": "Spin",
+				"description": "Adds thruster blade to double jump",
+				"cost": 2000,
+				"cap": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/Story.unity
+    guid: 7b6df72d20e6240c4a75d31e88143f01
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/MainMenu.unity
+    guid: d15733074db294e90896b2bc0504edb6
+  - enabled: 0
+    path: Assets/MoonRaider/scenes/WorldSelection.unity
+    guid: 050c8dbed33174e478d9dd93e0148eb5
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World1.unity
+    guid: 6a37e7607af1e4b929fbd8e6d35f744f
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World2.unity
+    guid: 326661b56cee146c4b640a11ee4e1bb6
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World3.unity
+    guid: bb87c78b34f494716bbc705f673cefc8
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World4.unity
+    guid: 93efa7fe8f7c94210907949f520fb488
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World5.unity
+    guid: 393527d4956354b93a9e9a8e57e14947
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World6.unity
+    guid: 6791a21aadd3f4baf9fd182c5ae15fff
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World7.unity
+    guid: 3c7c35353206e4e14850cb3aa3e2bee3
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World8.unity
+    guid: f270da31f548d407f9790f431a17c7fb
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World9.unity
+    guid: f8097e06bcc1c471095a896f0edd9017
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/World10.unity
+    guid: ffeec0e1dddeb4af5bdf5edc7368a275
+  - enabled: 0
+    path: Assets/MoonRaider/scenes/DemoEnd.unity
+    guid: 5d78f3d272408554094f7e115a0e2b2e
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/EndStory.unity
+    guid: dc3b516a3e12a4a34b4535ea26016ee8
+  - enabled: 1
+    path: Assets/MoonRaider/scenes/EndCredits.unity
+    guid: 9ed11034ba1e0894aa75c87f0c8ba8de
+  m_configObjects: {}

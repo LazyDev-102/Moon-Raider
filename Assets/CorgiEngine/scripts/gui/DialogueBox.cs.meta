@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3f884022bf95bf545951c9f38e035176
+timeCreated: 1519621422
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - TextPanel: {instanceID: 0}
+  - TextPanelArrowDown: {instanceID: 0}
+  - DialogueText: {instanceID: 0}
+  - ButtonA: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e1fddb9dad82d4fdea13048dbfc6dd46
+timeCreated: 1520056834
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PixelGameFont
+  fontNames:
+  - PixelGameFont
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1522 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1077954727640892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4889457180455932}
+  - component: {fileID: 253827103189254104}
+  - component: {fileID: 61465154541916228}
+  - component: {fileID: 33083852941261768}
+  - component: {fileID: 23857025244857440}
+  - component: {fileID: 114760834598191998}
+  - component: {fileID: 8285484589227979457}
+  m_Layer: 4
+  m_Name: WaterRipple5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4889457180455932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077954727640892}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.13690925, y: -9.253297, z: 25}
+  m_LocalScale: {x: 1, y: 0.7848, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4848781430055928}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!253 &253827103189254104
+BuoyancyEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077954727640892}
+  m_Enabled: 0
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SurfaceLevel: 1.2210083
+  m_Density: 2
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: 0
+--- !u!61 &61465154541916228
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077954727640892}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.016388, y: 3.0525208}
+  m_EdgeRadius: 0
+--- !u!33 &33083852941261768
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077954727640892}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23857025244857440
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077954727640892}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: acf84ee7fd46a424f904d4ff049d0fa3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114760834598191998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077954727640892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f8092d3bbd9544e9eded51ac39ec64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterSize: {x: 5.016388, y: 3.0525208}
+  lastWaterSize: {x: 5.016388, y: 3.0525208}
+  subdivisionsCountPerUnit: 6
+  damping: 0.05
+  stiffness: 50
+  stiffnessSquareRoot: 7.071068
+  spread: 50
+  useCustomBoundaries: 0
+  firstCustomBoundary: 0
+  secondCustomBoundary: -0
+  lastFirstCustomBoundary: 0.5
+  lastSecondCustomBoundary: -0.5
+  onWaterEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onWaterExit:
+    m_PersistentCalls:
+      m_Calls: []
+  buoyancyEffectorSurfaceLevel: 0.1
+  activateOnCollisionOnWaterEnterRipples: 0
+  activateOnCollisionOnWaterExitRipples: 0
+  onCollisionRipplesMinimumDisturbance: 0.6
+  onCollisionRipplesMaximumDisturbance: 0.9
+  onCollisionRipplesVelocityMultiplier: 0.12
+  onCollisionRipplesCollisionMask:
+    serializedVersion: 2
+    m_Bits: 472577
+  onCollisionRipplesCollisionMinimumDepth: -10
+  onCollisionRipplesCollisionMaximumDepth: 10
+  onCollisionRipplesCollisionRaycastMaxDistance: 0.5
+  onCollisionRipplesActivateOnWaterEnterParticleEffect: 1
+  onCollisionRipplesOnWaterEnterParticleEffect: {fileID: 198341604598504040, guid: 6d32189bffd6e354aa6db3708cdacb65,
+    type: 3}
+  onCollisionRipplesOnWaterEnterParticleEffectSpawnOffset: {x: 0, y: -0.55, z: 0.03}
+  onCollisionRipplesOnWaterEnterParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterEnterParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterEnterParticleEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesReconstructOnWaterEnterParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterEnterSoundEffect: 1
+  onCollisionRipplesOnWaterEnterAudioClip: {fileID: 8300000, guid: 646f1def85ee24b44a66b85520a572e5,
+    type: 3}
+  onCollisionRipplesUseConstantOnWaterEnterAudioPitch: 0
+  onCollisionRipplesOnWaterEnterAudioPitch: 1
+  onCollisionRipplesOnWaterEnterMinimumAudioPitch: 0.85
+  onCollisionRipplesOnWaterEnterMaximumAudioPitch: 1.15
+  onCollisionRipplesOnWaterEnterAudioVolume: 0.15
+  onCollisionRipplesOnWaterEnterSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterEnterSoundEffectPool: 0
+  onCollisionRipplesOnWaterEnterSoundEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesActivateOnWaterExitParticleEffect: 0
+  onCollisionRipplesOnWaterExitParticleEffect: {fileID: 0}
+  onCollisionRipplesOnWaterExitParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  onCollisionRipplesOnWaterExitParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterExitParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterExitParticleEffectPoolExpandIfNecessary: 0
+  onCollisionRipplesReconstructOnWaterExitParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterExitSoundEffect: 0
+  onCollisionRipplesOnWaterExitAudioClip: {fileID: 0}
+  onCollisionRipplesUseConstantOnWaterExitAudioPitch: 0
+  onCollisionRipplesOnWaterExitAudioPitch: 1
+  onCollisionRipplesOnWaterExitMinimumAudioPitch: 0.75
+  onCollisionRipplesOnWaterExitMaximumAudioPitch: 1.25
+  onCollisionRipplesOnWaterExitAudioVolume: 1
+  onCollisionRipplesOnWaterExitSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterExitSoundEffectPool: 0
+  onCollisionRipplesOnWaterExitSoundEffectPoolExpandIfNecessary: 0
+  activateConstantRipples: 0
+  constantRipplesUpdateWhenOffscreen: 0
+  constantRipplesRandomizeDisturbance: 0
+  constantRipplesSmoothDisturbance: 1
+  constantRipplesSmoothFactor: 0.125
+  constantRipplesDisturbance: 0.075
+  constantRipplesMinimumDisturbance: 0.08
+  constantRipplesMaximumDisturbance: 0.12
+  constantRipplesRandomizeInterval: 0
+  constantRipplesInterval: 0.5
+  constantRipplesMinimumInterval: 0.75
+  constantRipplesMaximumInterval: 1.25
+  constantRipplesRandomizeRipplesSourcesPositions: 1
+  constantRipplesRandomizeRipplesSourcesCount: 8
+  constantRipplesAllowDuplicateRipplesSourcesPositions: 0
+  constantRipplesSourcePositions: []
+  constantRipplesActivateSoundEffect: 0
+  constantRipplesUseConstantAudioPitch: 0
+  constantRipplesAudioClip: {fileID: 0}
+  constantRipplesAudioPitch: 1
+  constantRipplesMinimumAudioPitch: 0.75
+  constantRipplesMaximumAudioPitch: 1.25
+  constantRipplesSoundEffectPoolSize: 10
+  constantRipplesReconstructSoundEffectPool: 0
+  constantRipplesSoundEffectPoolExpandIfNecessary: 0
+  constantRipplesAudioVolume: 1
+  constantRipplesActivateParticleEffect: 0
+  constantRipplesParticleEffect: {fileID: 0}
+  constantRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  constantRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  constantRipplesParticleEffectPoolSize: 10
+  constantRipplesParticleEffectPoolExpandIfNecessary: 0
+  constantRipplesReconstructParticleEffectPool: 0
+  scriptGeneratedRipplesMinimumDisturbance: 0.1
+  scriptGeneratedRipplesMaximumDisturbance: 0.75
+  scriptGeneratedRipplesActivateSoundEffect: 0
+  scriptGeneratedRipplesAudioClip: {fileID: 0}
+  scriptGeneratedRipplesUseConstantAudioPitch: 0
+  scriptGeneratedRipplesAudioPitch: 1
+  scriptGeneratedRipplesMinimumAudioPitch: 0.75
+  scriptGeneratedRipplesMaximumAudioPitch: 1.25
+  scriptGeneratedRipplesAudioVolume: 1
+  scriptGeneratedRipplesSoundEffectPoolSize: 10
+  scriptGeneratedRipplesReconstructSoundEffectPool: 0
+  scriptGeneratedRipplesSoundEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesActivateParticleEffect: 0
+  scriptGeneratedRipplesParticleEffect: {fileID: 0}
+  scriptGeneratedRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  scriptGeneratedRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  scriptGeneratedRipplesParticleEffectPoolSize: 10
+  scriptGeneratedRipplesParticleEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesReconstructParticleEffectPool: 0
+  refractionRenderTextureResizeFactor: 1
+  refractionCullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967241
+  refractionRenderTextureFilterMode: 0
+  reflectionRenderTextureResizeFactor: 1
+  reflectionCullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  reflectionZOffset: 0
+  reflectionRenderTextureFilterMode: 0
+  sortingLayerID: 0
+  sortingOrder: 0
+  farClipPlane: 10
+  renderPixelLights: 1
+  allowMSAA: 0
+  allowHDR: 0
+--- !u!114 &8285484589227979457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077954727640892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e770c64e23d5e42a35e8a818b3bc49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterExitForce: 24
+  PartialDamage: 0.0033
+  DamageColor: {r: 0, g: 0.6039216, b: 0.0627451, a: 1}
+--- !u!1 &1112283516335690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4378633997555004}
+  - component: {fileID: 253522278346978820}
+  - component: {fileID: 61891588756211512}
+  - component: {fileID: 33282577602260340}
+  - component: {fileID: 23285674947094470}
+  - component: {fileID: 114818502117517924}
+  - component: {fileID: 2335234720065324307}
+  m_Layer: 4
+  m_Name: WaterRipple4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4378633997555004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112283516335690}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.30316, y: -4.64, z: 25}
+  m_LocalScale: {x: 1, y: 0.929, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4848781430055928}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!253 &253522278346978820
+BuoyancyEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112283516335690}
+  m_Enabled: 0
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SurfaceLevel: 4.1678705
+  m_Density: 2
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: 0
+--- !u!61 &61891588756211512
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112283516335690}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 16.421497, y: 10.419676}
+  m_EdgeRadius: 0
+--- !u!33 &33282577602260340
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112283516335690}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23285674947094470
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112283516335690}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: acf84ee7fd46a424f904d4ff049d0fa3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114818502117517924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112283516335690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f8092d3bbd9544e9eded51ac39ec64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterSize: {x: 16.421497, y: 10.419676}
+  lastWaterSize: {x: 16.421497, y: 10.419676}
+  subdivisionsCountPerUnit: 6
+  damping: 0.05
+  stiffness: 50
+  stiffnessSquareRoot: 7.071068
+  spread: 50
+  useCustomBoundaries: 0
+  firstCustomBoundary: 0
+  secondCustomBoundary: -0
+  lastFirstCustomBoundary: 0.5
+  lastSecondCustomBoundary: -0.5
+  onWaterEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onWaterExit:
+    m_PersistentCalls:
+      m_Calls: []
+  buoyancyEffectorSurfaceLevel: 0.1
+  activateOnCollisionOnWaterEnterRipples: 1
+  activateOnCollisionOnWaterExitRipples: 1
+  onCollisionRipplesMinimumDisturbance: 0.6
+  onCollisionRipplesMaximumDisturbance: 0.9
+  onCollisionRipplesVelocityMultiplier: 0.12
+  onCollisionRipplesCollisionMask:
+    serializedVersion: 2
+    m_Bits: 472577
+  onCollisionRipplesCollisionMinimumDepth: -10
+  onCollisionRipplesCollisionMaximumDepth: 10
+  onCollisionRipplesCollisionRaycastMaxDistance: 0.5
+  onCollisionRipplesActivateOnWaterEnterParticleEffect: 1
+  onCollisionRipplesOnWaterEnterParticleEffect: {fileID: 198341604598504040, guid: 6d32189bffd6e354aa6db3708cdacb65,
+    type: 3}
+  onCollisionRipplesOnWaterEnterParticleEffectSpawnOffset: {x: 0, y: -0.55, z: 0.03}
+  onCollisionRipplesOnWaterEnterParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterEnterParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterEnterParticleEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesReconstructOnWaterEnterParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterEnterSoundEffect: 1
+  onCollisionRipplesOnWaterEnterAudioClip: {fileID: 8300000, guid: 646f1def85ee24b44a66b85520a572e5,
+    type: 3}
+  onCollisionRipplesUseConstantOnWaterEnterAudioPitch: 0
+  onCollisionRipplesOnWaterEnterAudioPitch: 1
+  onCollisionRipplesOnWaterEnterMinimumAudioPitch: 0.85
+  onCollisionRipplesOnWaterEnterMaximumAudioPitch: 1.15
+  onCollisionRipplesOnWaterEnterAudioVolume: 0.15
+  onCollisionRipplesOnWaterEnterSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterEnterSoundEffectPool: 0
+  onCollisionRipplesOnWaterEnterSoundEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesActivateOnWaterExitParticleEffect: 0
+  onCollisionRipplesOnWaterExitParticleEffect: {fileID: 0}
+  onCollisionRipplesOnWaterExitParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  onCollisionRipplesOnWaterExitParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterExitParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterExitParticleEffectPoolExpandIfNecessary: 0
+  onCollisionRipplesReconstructOnWaterExitParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterExitSoundEffect: 0
+  onCollisionRipplesOnWaterExitAudioClip: {fileID: 0}
+  onCollisionRipplesUseConstantOnWaterExitAudioPitch: 0
+  onCollisionRipplesOnWaterExitAudioPitch: 1
+  onCollisionRipplesOnWaterExitMinimumAudioPitch: 0.75
+  onCollisionRipplesOnWaterExitMaximumAudioPitch: 1.25
+  onCollisionRipplesOnWaterExitAudioVolume: 1
+  onCollisionRipplesOnWaterExitSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterExitSoundEffectPool: 0
+  onCollisionRipplesOnWaterExitSoundEffectPoolExpandIfNecessary: 0
+  activateConstantRipples: 1
+  constantRipplesUpdateWhenOffscreen: 0
+  constantRipplesRandomizeDisturbance: 0
+  constantRipplesSmoothDisturbance: 1
+  constantRipplesSmoothFactor: 0.125
+  constantRipplesDisturbance: 0.075
+  constantRipplesMinimumDisturbance: 0.08
+  constantRipplesMaximumDisturbance: 0.12
+  constantRipplesRandomizeInterval: 0
+  constantRipplesInterval: 0.5
+  constantRipplesMinimumInterval: 0.75
+  constantRipplesMaximumInterval: 1.25
+  constantRipplesRandomizeRipplesSourcesPositions: 1
+  constantRipplesRandomizeRipplesSourcesCount: 8
+  constantRipplesAllowDuplicateRipplesSourcesPositions: 0
+  constantRipplesSourcePositions: []
+  constantRipplesActivateSoundEffect: 0
+  constantRipplesUseConstantAudioPitch: 0
+  constantRipplesAudioClip: {fileID: 0}
+  constantRipplesAudioPitch: 1
+  constantRipplesMinimumAudioPitch: 0.75
+  constantRipplesMaximumAudioPitch: 1.25
+  constantRipplesSoundEffectPoolSize: 10
+  constantRipplesReconstructSoundEffectPool: 0
+  constantRipplesSoundEffectPoolExpandIfNecessary: 0
+  constantRipplesAudioVolume: 1
+  constantRipplesActivateParticleEffect: 0
+  constantRipplesParticleEffect: {fileID: 0}
+  constantRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  constantRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  constantRipplesParticleEffectPoolSize: 10
+  constantRipplesParticleEffectPoolExpandIfNecessary: 0
+  constantRipplesReconstructParticleEffectPool: 0
+  scriptGeneratedRipplesMinimumDisturbance: 0.1
+  scriptGeneratedRipplesMaximumDisturbance: 0.75
+  scriptGeneratedRipplesActivateSoundEffect: 0
+  scriptGeneratedRipplesAudioClip: {fileID: 0}
+  scriptGeneratedRipplesUseConstantAudioPitch: 0
+  scriptGeneratedRipplesAudioPitch: 1
+  scriptGeneratedRipplesMinimumAudioPitch: 0.75
+  scriptGeneratedRipplesMaximumAudioPitch: 1.25
+  scriptGeneratedRipplesAudioVolume: 1
+  scriptGeneratedRipplesSoundEffectPoolSize: 10
+  scriptGeneratedRipplesReconstructSoundEffectPool: 0
+  scriptGeneratedRipplesSoundEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesActivateParticleEffect: 0
+  scriptGeneratedRipplesParticleEffect: {fileID: 0}
+  scriptGeneratedRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  scriptGeneratedRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  scriptGeneratedRipplesParticleEffectPoolSize: 10
+  scriptGeneratedRipplesParticleEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesReconstructParticleEffectPool: 0
+  refractionRenderTextureResizeFactor: 1
+  refractionCullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967241
+  refractionRenderTextureFilterMode: 0
+  reflectionRenderTextureResizeFactor: 1
+  reflectionCullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  reflectionZOffset: 0
+  reflectionRenderTextureFilterMode: 0
+  sortingLayerID: 0
+  sortingOrder: 0
+  farClipPlane: 10
+  renderPixelLights: 1
+  allowMSAA: 0
+  allowHDR: 0
+--- !u!114 &2335234720065324307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112283516335690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e770c64e23d5e42a35e8a818b3bc49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterExitForce: 24
+  PartialDamage: 0.0033
+  DamageColor: {r: 0, g: 0.6039216, b: 0.0627451, a: 1}
+--- !u!1 &1190363143345358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4044551130001970}
+  - component: {fileID: 253543499524722930}
+  - component: {fileID: 61065205453517694}
+  - component: {fileID: 33785212790343764}
+  - component: {fileID: 23401951568098230}
+  - component: {fileID: 114368901416705434}
+  - component: {fileID: 1236921091422256518}
+  m_Layer: 4
+  m_Name: WaterRipple2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4044551130001970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190363143345358}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.19421, y: -26.999987, z: 25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4848781430055928}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!253 &253543499524722930
+BuoyancyEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190363143345358}
+  m_Enabled: 0
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SurfaceLevel: 3.6432068
+  m_Density: 2
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: 0
+--- !u!61 &61065205453517694
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190363143345358}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.663344, y: 9.108017}
+  m_EdgeRadius: 0
+--- !u!33 &33785212790343764
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190363143345358}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23401951568098230
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190363143345358}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: acf84ee7fd46a424f904d4ff049d0fa3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114368901416705434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190363143345358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f8092d3bbd9544e9eded51ac39ec64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterSize: {x: 7.663344, y: 9.108017}
+  lastWaterSize: {x: 7.663344, y: 9.108017}
+  subdivisionsCountPerUnit: 6
+  damping: 0.05
+  stiffness: 50
+  stiffnessSquareRoot: 7.071068
+  spread: 50
+  useCustomBoundaries: 0
+  firstCustomBoundary: 0
+  secondCustomBoundary: -0
+  lastFirstCustomBoundary: 0.5
+  lastSecondCustomBoundary: -0.5
+  onWaterEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onWaterExit:
+    m_PersistentCalls:
+      m_Calls: []
+  buoyancyEffectorSurfaceLevel: 0.1
+  activateOnCollisionOnWaterEnterRipples: 1
+  activateOnCollisionOnWaterExitRipples: 1
+  onCollisionRipplesMinimumDisturbance: 0.6
+  onCollisionRipplesMaximumDisturbance: 0.9
+  onCollisionRipplesVelocityMultiplier: 0.12
+  onCollisionRipplesCollisionMask:
+    serializedVersion: 2
+    m_Bits: 472577
+  onCollisionRipplesCollisionMinimumDepth: -10
+  onCollisionRipplesCollisionMaximumDepth: 10
+  onCollisionRipplesCollisionRaycastMaxDistance: 0.5
+  onCollisionRipplesActivateOnWaterEnterParticleEffect: 1
+  onCollisionRipplesOnWaterEnterParticleEffect: {fileID: 198341604598504040, guid: 6d32189bffd6e354aa6db3708cdacb65,
+    type: 3}
+  onCollisionRipplesOnWaterEnterParticleEffectSpawnOffset: {x: 0, y: -0.55, z: 0.03}
+  onCollisionRipplesOnWaterEnterParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterEnterParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterEnterParticleEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesReconstructOnWaterEnterParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterEnterSoundEffect: 1
+  onCollisionRipplesOnWaterEnterAudioClip: {fileID: 8300000, guid: 646f1def85ee24b44a66b85520a572e5,
+    type: 3}
+  onCollisionRipplesUseConstantOnWaterEnterAudioPitch: 0
+  onCollisionRipplesOnWaterEnterAudioPitch: 1
+  onCollisionRipplesOnWaterEnterMinimumAudioPitch: 0.85
+  onCollisionRipplesOnWaterEnterMaximumAudioPitch: 1.15
+  onCollisionRipplesOnWaterEnterAudioVolume: 0.15
+  onCollisionRipplesOnWaterEnterSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterEnterSoundEffectPool: 0
+  onCollisionRipplesOnWaterEnterSoundEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesActivateOnWaterExitParticleEffect: 0
+  onCollisionRipplesOnWaterExitParticleEffect: {fileID: 0}
+  onCollisionRipplesOnWaterExitParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  onCollisionRipplesOnWaterExitParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterExitParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterExitParticleEffectPoolExpandIfNecessary: 0
+  onCollisionRipplesReconstructOnWaterExitParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterExitSoundEffect: 0
+  onCollisionRipplesOnWaterExitAudioClip: {fileID: 0}
+  onCollisionRipplesUseConstantOnWaterExitAudioPitch: 0
+  onCollisionRipplesOnWaterExitAudioPitch: 1
+  onCollisionRipplesOnWaterExitMinimumAudioPitch: 0.75
+  onCollisionRipplesOnWaterExitMaximumAudioPitch: 1.25
+  onCollisionRipplesOnWaterExitAudioVolume: 1
+  onCollisionRipplesOnWaterExitSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterExitSoundEffectPool: 0
+  onCollisionRipplesOnWaterExitSoundEffectPoolExpandIfNecessary: 0
+  activateConstantRipples: 1
+  constantRipplesUpdateWhenOffscreen: 0
+  constantRipplesRandomizeDisturbance: 0
+  constantRipplesSmoothDisturbance: 1
+  constantRipplesSmoothFactor: 0.125
+  constantRipplesDisturbance: 0.075
+  constantRipplesMinimumDisturbance: 0.08
+  constantRipplesMaximumDisturbance: 0.12
+  constantRipplesRandomizeInterval: 0
+  constantRipplesInterval: 0.5
+  constantRipplesMinimumInterval: 0.75
+  constantRipplesMaximumInterval: 1.25
+  constantRipplesRandomizeRipplesSourcesPositions: 1
+  constantRipplesRandomizeRipplesSourcesCount: 8
+  constantRipplesAllowDuplicateRipplesSourcesPositions: 0
+  constantRipplesSourcePositions: []
+  constantRipplesActivateSoundEffect: 0
+  constantRipplesUseConstantAudioPitch: 0
+  constantRipplesAudioClip: {fileID: 0}
+  constantRipplesAudioPitch: 1
+  constantRipplesMinimumAudioPitch: 0.75
+  constantRipplesMaximumAudioPitch: 1.25
+  constantRipplesSoundEffectPoolSize: 10
+  constantRipplesReconstructSoundEffectPool: 0
+  constantRipplesSoundEffectPoolExpandIfNecessary: 0
+  constantRipplesAudioVolume: 1
+  constantRipplesActivateParticleEffect: 0
+  constantRipplesParticleEffect: {fileID: 0}
+  constantRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  constantRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  constantRipplesParticleEffectPoolSize: 10
+  constantRipplesParticleEffectPoolExpandIfNecessary: 0
+  constantRipplesReconstructParticleEffectPool: 0
+  scriptGeneratedRipplesMinimumDisturbance: 0.1
+  scriptGeneratedRipplesMaximumDisturbance: 0.75
+  scriptGeneratedRipplesActivateSoundEffect: 0
+  scriptGeneratedRipplesAudioClip: {fileID: 0}
+  scriptGeneratedRipplesUseConstantAudioPitch: 0
+  scriptGeneratedRipplesAudioPitch: 1
+  scriptGeneratedRipplesMinimumAudioPitch: 0.75
+  scriptGeneratedRipplesMaximumAudioPitch: 1.25
+  scriptGeneratedRipplesAudioVolume: 1
+  scriptGeneratedRipplesSoundEffectPoolSize: 10
+  scriptGeneratedRipplesReconstructSoundEffectPool: 0
+  scriptGeneratedRipplesSoundEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesActivateParticleEffect: 0
+  scriptGeneratedRipplesParticleEffect: {fileID: 0}
+  scriptGeneratedRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  scriptGeneratedRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  scriptGeneratedRipplesParticleEffectPoolSize: 10
+  scriptGeneratedRipplesParticleEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesReconstructParticleEffectPool: 0
+  refractionRenderTextureResizeFactor: 1
+  refractionCullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967241
+  refractionRenderTextureFilterMode: 0
+  reflectionRenderTextureResizeFactor: 1
+  reflectionCullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  reflectionZOffset: 0
+  reflectionRenderTextureFilterMode: 0
+  sortingLayerID: 0
+  sortingOrder: 0
+  farClipPlane: 10
+  renderPixelLights: 1
+  allowMSAA: 0
+  allowHDR: 0
+--- !u!114 &1236921091422256518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190363143345358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e770c64e23d5e42a35e8a818b3bc49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterExitForce: 24
+  PartialDamage: 0.0033
+  DamageColor: {r: 0, g: 0.6039216, b: 0.0627451, a: 1}
+--- !u!1 &1291441912430916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4293181522185792}
+  - component: {fileID: 253822324545354598}
+  - component: {fileID: 61200424690294384}
+  - component: {fileID: 33608210065496698}
+  - component: {fileID: 23407391220184962}
+  - component: {fileID: 114288326869923438}
+  - component: {fileID: 4398236782231944275}
+  m_Layer: 4
+  m_Name: WaterRipple3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4293181522185792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291441912430916}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.122482, y: 14.482, z: 25}
+  m_LocalScale: {x: 1, y: 0.7848, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4848781430055928}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!253 &253822324545354598
+BuoyancyEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291441912430916}
+  m_Enabled: 0
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SurfaceLevel: 22.987164
+  m_Density: 2
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: 0
+--- !u!61 &61200424690294384
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291441912430916}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 44.425068, y: 57.46791}
+  m_EdgeRadius: 0
+--- !u!33 &33608210065496698
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291441912430916}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23407391220184962
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291441912430916}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: acf84ee7fd46a424f904d4ff049d0fa3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114288326869923438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291441912430916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f8092d3bbd9544e9eded51ac39ec64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterSize: {x: 44.425068, y: 57.46791}
+  lastWaterSize: {x: 44.425068, y: 57.46791}
+  subdivisionsCountPerUnit: 6
+  damping: 0.05
+  stiffness: 50
+  stiffnessSquareRoot: 7.071068
+  spread: 50
+  useCustomBoundaries: 0
+  firstCustomBoundary: 0
+  secondCustomBoundary: -0
+  lastFirstCustomBoundary: 0.5
+  lastSecondCustomBoundary: -0.5
+  onWaterEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onWaterExit:
+    m_PersistentCalls:
+      m_Calls: []
+  buoyancyEffectorSurfaceLevel: 0.1
+  activateOnCollisionOnWaterEnterRipples: 1
+  activateOnCollisionOnWaterExitRipples: 1
+  onCollisionRipplesMinimumDisturbance: 0.6
+  onCollisionRipplesMaximumDisturbance: 0.9
+  onCollisionRipplesVelocityMultiplier: 0.12
+  onCollisionRipplesCollisionMask:
+    serializedVersion: 2
+    m_Bits: 472577
+  onCollisionRipplesCollisionMinimumDepth: -10
+  onCollisionRipplesCollisionMaximumDepth: 10
+  onCollisionRipplesCollisionRaycastMaxDistance: 0.5
+  onCollisionRipplesActivateOnWaterEnterParticleEffect: 1
+  onCollisionRipplesOnWaterEnterParticleEffect: {fileID: 198341604598504040, guid: 6d32189bffd6e354aa6db3708cdacb65,
+    type: 3}
+  onCollisionRipplesOnWaterEnterParticleEffectSpawnOffset: {x: 0, y: -0.55, z: 0.03}
+  onCollisionRipplesOnWaterEnterParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterEnterParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterEnterParticleEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesReconstructOnWaterEnterParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterEnterSoundEffect: 1
+  onCollisionRipplesOnWaterEnterAudioClip: {fileID: 8300000, guid: 646f1def85ee24b44a66b85520a572e5,
+    type: 3}
+  onCollisionRipplesUseConstantOnWaterEnterAudioPitch: 0
+  onCollisionRipplesOnWaterEnterAudioPitch: 1
+  onCollisionRipplesOnWaterEnterMinimumAudioPitch: 0.85
+  onCollisionRipplesOnWaterEnterMaximumAudioPitch: 1.15
+  onCollisionRipplesOnWaterEnterAudioVolume: 0.15
+  onCollisionRipplesOnWaterEnterSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterEnterSoundEffectPool: 0
+  onCollisionRipplesOnWaterEnterSoundEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesActivateOnWaterExitParticleEffect: 0
+  onCollisionRipplesOnWaterExitParticleEffect: {fileID: 0}
+  onCollisionRipplesOnWaterExitParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  onCollisionRipplesOnWaterExitParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterExitParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterExitParticleEffectPoolExpandIfNecessary: 0
+  onCollisionRipplesReconstructOnWaterExitParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterExitSoundEffect: 0
+  onCollisionRipplesOnWaterExitAudioClip: {fileID: 0}
+  onCollisionRipplesUseConstantOnWaterExitAudioPitch: 0
+  onCollisionRipplesOnWaterExitAudioPitch: 1
+  onCollisionRipplesOnWaterExitMinimumAudioPitch: 0.75
+  onCollisionRipplesOnWaterExitMaximumAudioPitch: 1.25
+  onCollisionRipplesOnWaterExitAudioVolume: 1
+  onCollisionRipplesOnWaterExitSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterExitSoundEffectPool: 0
+  onCollisionRipplesOnWaterExitSoundEffectPoolExpandIfNecessary: 0
+  activateConstantRipples: 1
+  constantRipplesUpdateWhenOffscreen: 0
+  constantRipplesRandomizeDisturbance: 0
+  constantRipplesSmoothDisturbance: 1
+  constantRipplesSmoothFactor: 0.125
+  constantRipplesDisturbance: 0.075
+  constantRipplesMinimumDisturbance: 0.08
+  constantRipplesMaximumDisturbance: 0.12
+  constantRipplesRandomizeInterval: 0
+  constantRipplesInterval: 0.5
+  constantRipplesMinimumInterval: 0.75
+  constantRipplesMaximumInterval: 1.25
+  constantRipplesRandomizeRipplesSourcesPositions: 1
+  constantRipplesRandomizeRipplesSourcesCount: 8
+  constantRipplesAllowDuplicateRipplesSourcesPositions: 0
+  constantRipplesSourcePositions: []
+  constantRipplesActivateSoundEffect: 0
+  constantRipplesUseConstantAudioPitch: 0
+  constantRipplesAudioClip: {fileID: 0}
+  constantRipplesAudioPitch: 1
+  constantRipplesMinimumAudioPitch: 0.75
+  constantRipplesMaximumAudioPitch: 1.25
+  constantRipplesSoundEffectPoolSize: 10
+  constantRipplesReconstructSoundEffectPool: 0
+  constantRipplesSoundEffectPoolExpandIfNecessary: 0
+  constantRipplesAudioVolume: 1
+  constantRipplesActivateParticleEffect: 0
+  constantRipplesParticleEffect: {fileID: 0}
+  constantRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  constantRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  constantRipplesParticleEffectPoolSize: 10
+  constantRipplesParticleEffectPoolExpandIfNecessary: 0
+  constantRipplesReconstructParticleEffectPool: 0
+  scriptGeneratedRipplesMinimumDisturbance: 0.1
+  scriptGeneratedRipplesMaximumDisturbance: 0.75
+  scriptGeneratedRipplesActivateSoundEffect: 0
+  scriptGeneratedRipplesAudioClip: {fileID: 0}
+  scriptGeneratedRipplesUseConstantAudioPitch: 0
+  scriptGeneratedRipplesAudioPitch: 1
+  scriptGeneratedRipplesMinimumAudioPitch: 0.75
+  scriptGeneratedRipplesMaximumAudioPitch: 1.25
+  scriptGeneratedRipplesAudioVolume: 1
+  scriptGeneratedRipplesSoundEffectPoolSize: 10
+  scriptGeneratedRipplesReconstructSoundEffectPool: 0
+  scriptGeneratedRipplesSoundEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesActivateParticleEffect: 0
+  scriptGeneratedRipplesParticleEffect: {fileID: 0}
+  scriptGeneratedRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  scriptGeneratedRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  scriptGeneratedRipplesParticleEffectPoolSize: 10
+  scriptGeneratedRipplesParticleEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesReconstructParticleEffectPool: 0
+  refractionRenderTextureResizeFactor: 1
+  refractionCullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967241
+  refractionRenderTextureFilterMode: 0
+  reflectionRenderTextureResizeFactor: 1
+  reflectionCullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  reflectionZOffset: 0
+  reflectionRenderTextureFilterMode: 0
+  sortingLayerID: 0
+  sortingOrder: 0
+  farClipPlane: 10
+  renderPixelLights: 1
+  allowMSAA: 0
+  allowHDR: 0
+--- !u!114 &4398236782231944275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291441912430916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e770c64e23d5e42a35e8a818b3bc49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterExitForce: 24
+  PartialDamage: 0.0033
+  DamageColor: {r: 0, g: 0.6039216, b: 0.0627451, a: 1}
+--- !u!1 &1330149231689192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4680542351247758}
+  - component: {fileID: 253473216914422092}
+  - component: {fileID: 61789323134194354}
+  - component: {fileID: 33688258887875298}
+  - component: {fileID: 23579865865605676}
+  - component: {fileID: 114640747172097278}
+  - component: {fileID: 3312620633123894370}
+  m_Layer: 4
+  m_Name: WaterRipple1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4680542351247758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330149231689192}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -16.485651, y: -19.230192, z: 25}
+  m_LocalScale: {x: 1, y: 0.7848, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4848781430055928}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!253 &253473216914422092
+BuoyancyEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330149231689192}
+  m_Enabled: 0
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SurfaceLevel: 11.387423
+  m_Density: 2
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: 0
+--- !u!61 &61789323134194354
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330149231689192}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 27.698744, y: 28.468555}
+  m_EdgeRadius: 0
+--- !u!33 &33688258887875298
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330149231689192}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23579865865605676
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330149231689192}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: acf84ee7fd46a424f904d4ff049d0fa3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114640747172097278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330149231689192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f8092d3bbd9544e9eded51ac39ec64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterSize: {x: 27.698744, y: 28.468555}
+  lastWaterSize: {x: 27.698744, y: 28.468555}
+  subdivisionsCountPerUnit: 6
+  damping: 0.05
+  stiffness: 50
+  stiffnessSquareRoot: 7.071068
+  spread: 50
+  useCustomBoundaries: 0
+  firstCustomBoundary: 0
+  secondCustomBoundary: -0
+  lastFirstCustomBoundary: 0.5
+  lastSecondCustomBoundary: -0.5
+  onWaterEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onWaterExit:
+    m_PersistentCalls:
+      m_Calls: []
+  buoyancyEffectorSurfaceLevel: 0.1
+  activateOnCollisionOnWaterEnterRipples: 0
+  activateOnCollisionOnWaterExitRipples: 0
+  onCollisionRipplesMinimumDisturbance: 0.6
+  onCollisionRipplesMaximumDisturbance: 0.9
+  onCollisionRipplesVelocityMultiplier: 0.12
+  onCollisionRipplesCollisionMask:
+    serializedVersion: 2
+    m_Bits: 472577
+  onCollisionRipplesCollisionMinimumDepth: -10
+  onCollisionRipplesCollisionMaximumDepth: 10
+  onCollisionRipplesCollisionRaycastMaxDistance: 0.5
+  onCollisionRipplesActivateOnWaterEnterParticleEffect: 1
+  onCollisionRipplesOnWaterEnterParticleEffect: {fileID: 198341604598504040, guid: 6d32189bffd6e354aa6db3708cdacb65,
+    type: 3}
+  onCollisionRipplesOnWaterEnterParticleEffectSpawnOffset: {x: 0, y: -0.55, z: 0.03}
+  onCollisionRipplesOnWaterEnterParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterEnterParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterEnterParticleEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesReconstructOnWaterEnterParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterEnterSoundEffect: 1
+  onCollisionRipplesOnWaterEnterAudioClip: {fileID: 8300000, guid: 646f1def85ee24b44a66b85520a572e5,
+    type: 3}
+  onCollisionRipplesUseConstantOnWaterEnterAudioPitch: 0
+  onCollisionRipplesOnWaterEnterAudioPitch: 1
+  onCollisionRipplesOnWaterEnterMinimumAudioPitch: 0.85
+  onCollisionRipplesOnWaterEnterMaximumAudioPitch: 1.15
+  onCollisionRipplesOnWaterEnterAudioVolume: 0.15
+  onCollisionRipplesOnWaterEnterSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterEnterSoundEffectPool: 0
+  onCollisionRipplesOnWaterEnterSoundEffectPoolExpandIfNecessary: 1
+  onCollisionRipplesActivateOnWaterExitParticleEffect: 0
+  onCollisionRipplesOnWaterExitParticleEffect: {fileID: 0}
+  onCollisionRipplesOnWaterExitParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  onCollisionRipplesOnWaterExitParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionRipplesOnWaterExitParticleEffectPoolSize: 10
+  onCollisionRipplesOnWaterExitParticleEffectPoolExpandIfNecessary: 0
+  onCollisionRipplesReconstructOnWaterExitParticleEffectPool: 0
+  onCollisionRipplesActivateOnWaterExitSoundEffect: 0
+  onCollisionRipplesOnWaterExitAudioClip: {fileID: 0}
+  onCollisionRipplesUseConstantOnWaterExitAudioPitch: 0
+  onCollisionRipplesOnWaterExitAudioPitch: 1
+  onCollisionRipplesOnWaterExitMinimumAudioPitch: 0.75
+  onCollisionRipplesOnWaterExitMaximumAudioPitch: 1.25
+  onCollisionRipplesOnWaterExitAudioVolume: 1
+  onCollisionRipplesOnWaterExitSoundEffectPoolSize: 10
+  onCollisionRipplesReconstructOnWaterExitSoundEffectPool: 0
+  onCollisionRipplesOnWaterExitSoundEffectPoolExpandIfNecessary: 0
+  activateConstantRipples: 0
+  constantRipplesUpdateWhenOffscreen: 0
+  constantRipplesRandomizeDisturbance: 0
+  constantRipplesSmoothDisturbance: 1
+  constantRipplesSmoothFactor: 0.125
+  constantRipplesDisturbance: 0.075
+  constantRipplesMinimumDisturbance: 0.08
+  constantRipplesMaximumDisturbance: 0.12
+  constantRipplesRandomizeInterval: 0
+  constantRipplesInterval: 0.5
+  constantRipplesMinimumInterval: 0.75
+  constantRipplesMaximumInterval: 1.25
+  constantRipplesRandomizeRipplesSourcesPositions: 1
+  constantRipplesRandomizeRipplesSourcesCount: 8
+  constantRipplesAllowDuplicateRipplesSourcesPositions: 0
+  constantRipplesSourcePositions: []
+  constantRipplesActivateSoundEffect: 0
+  constantRipplesUseConstantAudioPitch: 0
+  constantRipplesAudioClip: {fileID: 0}
+  constantRipplesAudioPitch: 1
+  constantRipplesMinimumAudioPitch: 0.75
+  constantRipplesMaximumAudioPitch: 1.25
+  constantRipplesSoundEffectPoolSize: 10
+  constantRipplesReconstructSoundEffectPool: 0
+  constantRipplesSoundEffectPoolExpandIfNecessary: 0
+  constantRipplesAudioVolume: 1
+  constantRipplesActivateParticleEffect: 0
+  constantRipplesParticleEffect: {fileID: 0}
+  constantRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  constantRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  constantRipplesParticleEffectPoolSize: 10
+  constantRipplesParticleEffectPoolExpandIfNecessary: 0
+  constantRipplesReconstructParticleEffectPool: 0
+  scriptGeneratedRipplesMinimumDisturbance: 0.1
+  scriptGeneratedRipplesMaximumDisturbance: 0.75
+  scriptGeneratedRipplesActivateSoundEffect: 0
+  scriptGeneratedRipplesAudioClip: {fileID: 0}
+  scriptGeneratedRipplesUseConstantAudioPitch: 0
+  scriptGeneratedRipplesAudioPitch: 1
+  scriptGeneratedRipplesMinimumAudioPitch: 0.75
+  scriptGeneratedRipplesMaximumAudioPitch: 1.25
+  scriptGeneratedRipplesAudioVolume: 1
+  scriptGeneratedRipplesSoundEffectPoolSize: 10
+  scriptGeneratedRipplesReconstructSoundEffectPool: 0
+  scriptGeneratedRipplesSoundEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesActivateParticleEffect: 0
+  scriptGeneratedRipplesParticleEffect: {fileID: 0}
+  scriptGeneratedRipplesParticleEffectSpawnOffset: {x: 0, y: 0, z: 0}
+  scriptGeneratedRipplesParticleEffectStopAction:
+    m_PersistentCalls:
+      m_Calls: []
+  scriptGeneratedRipplesParticleEffectPoolSize: 10
+  scriptGeneratedRipplesParticleEffectPoolExpandIfNecessary: 0
+  scriptGeneratedRipplesReconstructParticleEffectPool: 0
+  refractionRenderTextureResizeFactor: 1
+  refractionCullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967241
+  refractionRenderTextureFilterMode: 0
+  reflectionRenderTextureResizeFactor: 1
+  reflectionCullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  reflectionZOffset: 0
+  reflectionRenderTextureFilterMode: 0
+  sortingLayerID: 0
+  sortingOrder: 0
+  farClipPlane: 10
+  renderPixelLights: 1
+  allowMSAA: 0
+  allowHDR: 0
+--- !u!114 &3312620633123894370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330149231689192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e770c64e23d5e42a35e8a818b3bc49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterExitForce: 24
+  PartialDamage: 0.0033
+  DamageColor: {r: 0, g: 0.6039216, b: 0.0627451, a: 1}
+--- !u!1 &1395656796443916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4848781430055928}
+  m_Layer: 0
+  m_Name: Dynamic31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4848781430055928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395656796443916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4378633997555004}
+  - {fileID: 4293181522185792}
+  - {fileID: 4044551130001970}
+  - {fileID: 4680542351247758}
+  - {fileID: 4889457180455932}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
